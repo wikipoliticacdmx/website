@@ -1,18 +1,19 @@
-<template>
-  <div class="banner">
-    <b-container class="container">
-      <b-row>
-        <b-col>
-          <p class="text-center mb-0">
-            Hay una nueva política, la posibilidad de un futuro distinto.
-          </p>
-          <p class="text-center mb-0">
-            Una política <span class="horizontal">horizontal</span>, <span class="feminist">feminista</span>, <span class="progressist">progresista</span> y <span class="sustainable">sustentable</span>.
-          </p>
-        </b-col>
-      </b-row>
-    </b-container>
-  </div>
+<template lang="pug">
+  .banner
+    b-container.container
+      b-row
+        b-col
+          p.text-center.mb-0 Hay una nueva política, la posibilidad de un futuro distinto.
+          p.text-center.mb-0
+            | Una política
+            span.horizontal &nbsp;horizontal
+            | ,
+            span.feminist &nbsp;feminista
+            | ,
+            span.progressist &nbsp;progresista&nbsp;
+            | y
+            span.sustainable &nbsp;sustentable
+            | .
 </template>
 
 <script>
