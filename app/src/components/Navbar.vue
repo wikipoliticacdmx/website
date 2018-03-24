@@ -3,6 +3,7 @@
     <b-navbar variant="faded" type="light">
       <b-container class="bv-example-row">
         <b-row>
+          <b-col><b-img :src="require('@/assets/img/wikilogo.png')" fluid alt="wikilogo" /></b-col>
           <b-col>Inicio</b-col>
           <b-col>Conócenos</b-col>
           <b-col>Foro</b-col>
