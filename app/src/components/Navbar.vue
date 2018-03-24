@@ -1,24 +1,19 @@
-<template>
-  <div class="navbar">
-    <b-navbar variant="faded" type="light">
-      <b-container class="bv-example-row">
-        <b-row>
-          <b-col><b-img :src="require('@/assets/img/wikilogo.png')" fluid alt="wikilogo" /></b-col>
-          <b-col>Inicio</b-col>
-          <b-col>Conócenos</b-col>
-          <b-col>Foro</b-col>
-          <b-col>Únete</b-col>
-          <b-col>Contacto</b-col>
-          <b-button variant="primary">
-            ¡ÚNETE!
-          </b-button>
-          <b-button variant="danger">
-            DONA
-          </b-button>
-        </b-row>
-      </b-container>
-    </b-navbar>
-  </div>
+<template lang="pug">
+  .navbar
+    b-navbar(variant="faded", type="light")
+      b-container.bv-example-row
+        b-row
+          b-col
+            b-img(:src="require('@/assets/img/wikilogo.png')", fluid alt="wikilogo")
+          b-col Inicio
+          b-col Conócenos
+          b-col Foro
+          b-col Únete
+          b-col Contacto
+          b-button(variant="primary")
+            | ¡ÚNETE!
+          b-button(variant="danger")
+            | DONA
 </template>
 
 <script>
