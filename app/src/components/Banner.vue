@@ -1,5 +1,5 @@
 <template lang="pug">
-  .banner
+  .banner.py-5
     b-container.container
       b-row
         b-col
@@ -30,17 +30,18 @@
     background-color: white;
     p {
       font-size: 25px;
+      font-weight: bold;
       .horizontal {
-        color: green;
+        color: #43D3AF;
       }
       .feminist {
-        color: pink;
+        color: #E13771;
       }
       .progressist {
-        color: yellow;
+        color: #E2CF3E;
       }
       .sustainable {
-        color: beige;
+        color: #CD7F87;
       }
     }
   }
