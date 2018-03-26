@@ -2,7 +2,7 @@
   .hero
     b-container.p-0(fluid)
       b-row
-        b-col
+        b-col.p-0
           b-img(:src="require('@/assets/img/hero.png')", fluid, alt="hero")
 </template>
 
