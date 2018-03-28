@@ -13,12 +13,12 @@
 </template>
 
 <script>
-  export default {
-    name: "Node",
-    props: {
+export default {
+  name: "Node",
+  props: {
 
-    }
-  };
+  }
+};
 </script>
 
 <style scoped lang="scss">
