@@ -5,6 +5,7 @@
     Motto
     Node
     Manifest
+    Photo
 </template>
 
 <script>
@@ -13,6 +14,7 @@ import Hero from "@/components/Hero.vue"
 import Motto from "@/components/Motto.vue"
 import Node from "@/components/Node.vue"
 import Manifest from "@/components/Manifest.vue"
+import Photo from "@/components/Photo.vue"
 
 export default {
   name: "home",
@@ -21,7 +23,8 @@ export default {
     Hero,
     Motto,
     Node,
-    Manifest
+    Manifest,
+    Photo
   }
 };
 </script>
