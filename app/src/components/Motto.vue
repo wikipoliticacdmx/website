@@ -1,5 +1,5 @@
 <template lang="pug">
-  .banner.py-5
+  .motto.py-5
     b-container.container
       b-row
         b-col
@@ -18,7 +18,7 @@
 
 <script>
   export default {
-    name: "Banner",
+    name: "Motto",
     props: {
 
     }
