@@ -7,6 +7,7 @@
     Manifest
     Photo
     WeAre
+    Believe
     Banner
 </template>
 
@@ -18,6 +19,7 @@ import Node from "@/components/Node.vue"
 import Manifest from "@/components/Manifest.vue"
 import Photo from "@/components/Photo.vue"
 import WeAre from "@/components/WeAre.vue"
+import Believe from "@/components/Believe.vue"
 import Banner from "@/components/Banner.vue"
 
 export default {
@@ -30,6 +32,7 @@ export default {
     Manifest,
     Photo,
     WeAre,
+    Believe,
     Banner
   }
 };
