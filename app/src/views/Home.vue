@@ -6,6 +6,7 @@
     Node
     Manifest
     Photo
+    Network
     WeAre
     Believe
     Banner
@@ -18,6 +19,7 @@ import Motto from "@/components/Motto.vue"
 import Node from "@/components/Node.vue"
 import Manifest from "@/components/Manifest.vue"
 import Photo from "@/components/Photo.vue"
+import Network from "@/components/Network.vue"
 import WeAre from "@/components/WeAre.vue"
 import Believe from "@/components/Believe.vue"
 import Banner from "@/components/Banner.vue"
@@ -31,6 +33,7 @@ export default {
     Node,
     Manifest,
     Photo,
+    Network,
     WeAre,
     Believe,
     Banner
