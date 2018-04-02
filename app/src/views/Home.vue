@@ -10,6 +10,7 @@
     WeAre
     Believe
     Banner
+    Contact
 </template>
 
 <script>
@@ -23,6 +24,7 @@ import Network from "@/components/Network.vue"
 import WeAre from "@/components/WeAre.vue"
 import Believe from "@/components/Believe.vue"
 import Banner from "@/components/Banner.vue"
+import Contact from "@/components/Contact.vue"
 
 export default {
   name: "home",
@@ -36,7 +38,8 @@ export default {
     Network,
     WeAre,
     Believe,
-    Banner
+    Banner,
+    Contact
   }
 };
 </script>
